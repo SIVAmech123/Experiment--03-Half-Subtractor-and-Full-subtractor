@@ -49,20 +49,13 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Program:
 ## HALFSUBTRACTOR:
-module halfsubtractor(a,b,diff, borrow)
-input a,b;
-output diff, borrow;
-assign diff=a^b;
-assign borrow=~a&b;
-endmodule
+
+<img width="203" alt="Screenshot 2023-12-18 210230" src="https://github.com/SIVAmech123/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/151629067/a72e7046-cd00-465f-bbf3-14bd4aabe331">
 
 ## FULLSUBTRACTOR:
 
-module fullsubtractor(a,b,c,diff, borro
-input a,b,c;
-output diff, borrow;
-assign diff=a^b^c;
-assign borrow=~a&b|c&~(a^b);
+<img width="209" alt="Screenshot 2023-12-18 210247" src="https://github.com/SIVAmech123/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/151629067/7b557b67-cc38-478a-888d-a807ff797841">
+
 
 ## Output:
 
