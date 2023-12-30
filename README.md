@@ -30,7 +30,7 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure:
-## A.Half adder
+## A.Half subtractor
 1. A half subtractor is a combinational circuit that performs the subtraction of two single-bit numbers and produces two outputs: the difference and the borrow.
 
 2. Let's consider two single-bit inputs A and B.
@@ -38,7 +38,7 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 3. Difference (Diff): This output represents the result of the subtraction A - B and is obtained by performing an XOR operation on inputs A and B.
 
 4. Borrow (Borrow): This output indicates whether a borrow is required for the subtraction and is obtained by performing an AND operation between the complement of A and B.
-## B.Full adder:
+## B.Full subtractor
 1. A full subtractor is a combinational circuit that subtracts three single-bit inputs: A, B, and a Borrow-In (Bin), and produces two outputs: the difference and a Borrow-Out (Bout) to the next subtractor in a sequence.
 
 2. Difference (Diff): This output represents the result of the subtraction A - B - Bin.
